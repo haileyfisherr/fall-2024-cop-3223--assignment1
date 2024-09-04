@@ -10,10 +10,10 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${gcc -o program1 fracturing.c -lm}",
-            "args": [],
+            "args": ["arg1", "arg2"],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
-            "environment": [],
+            "environment": [{"name": "config", "value": "Debug"}  ],
             "externalConsole": false,
             "MIMode": "gdb",
             "setupCommands": [
