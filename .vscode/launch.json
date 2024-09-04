@@ -9,7 +9,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${fracturing.c -lm}",
+            "program": "${fracturing.c}",
             "args": ["arg1", "arg2"],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
